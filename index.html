@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Design - Re-making Pastiche</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">CS1300 Responsive Design</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#usability" class="nav-link">Usability</a>
+            </li>
+            <li class="nav-item">
+              <a href="#lofi" class="nav-link">Lofi</a>
+            </li>
+            <li class="nav-item">
+              <a href="#hifi" class="nav-link">Hifi</a>
+            </li>
+            <li class="nav-item">
+              <a href="#redesigned" class="nav-link">Final redesign</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Remaking <span class="text-warning"> Y noodles</span></h1>
+            <p class="lead my-4">
+              Helping one of the best Asian restaruants in local Providence!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="usability" class="p-5">
+      <div>
+        <h2 class="text-center"> Identifying usability problems</h2>
+        <br>
+      </div>
+      <div class="container">
+        <p class="lead">
+          Y Noodle & Bar is a local Asian restaurant in Providence that is best known for their homemade desserts. This project will examine the index page of 
+          its official website <a href="https://ynoodlebar.com">(www.ynoodlebar.com)</a> for online ordering and displaying other important information of the restaurant. <br>
+        </p>
+        <p>
+          I have identified the following problems that might affect the usability of the website and annotated them on the screenshots.
+        </p>
+        <ul>
+          <li><span class="text-warning">Poor visual design</span> that makes the restaurant unattractive and seem unprofessional: poor alignment, uninteresting background,
+          misplacement of elements, inappropriate porportions.</li>
+          <li><span class="text-warning">Poor affordance and lack of visual cues</span> that makes the website hard to navigate especially for first-time users.</li>
+          <li><span class="text-warning">Poor responsiveness</span> that makes the website even harder to use on mobile devices.</li>
+        </ul>
+        <img src="img/ynoodle-problems-annotated001.jpeg" class="img-fluid" alt="" />
+        <img src="img/ynoodle-problems-annotated002.jpeg" class="img-fluid" alt="" />
+        <img src="img/ynoodle-problems-annotated003.jpeg" class="img-fluid" alt="" />
+        <img src="img/ynoodle-problems-annotated004.jpeg" class="img-fluid" alt="" />
+        <p>
+          WebAim primarily identifies that "Join Y Noodel & Bar" text in white has poor contrast against the background. This might also be an issue.
+        </p>
+      </div>
+      
+    </section>
+
+    <section id="lofi" class="p-5 bg-dark text-light">
+      <div class="container">
+        <h2 class="text-center">Low-fidelity design</h2>
+        <p class="lead text-center">
+          From the observations above, I have made the following low-fidelity design.
+        </p>
+        <div>
+          <img src="img/lofi1.png" class="img-fluid" alt="" />
+        </div>
+        <div>
+          <img src="img/lofi2.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="hifi" class="p-5">
+      <h2>Hi-fidelity design</h2>
+      <p class="lead text-center">
+        I have made the following hifi design for the y noodle and bar website.
+      <p class="text-center">You may note that 
+        the high-fidelity design is a little bit different from lofi on sizes -- yes, I changed my mind during 
+        the process of designing and thought that a full-screen hoom page could be pretty cool!
+         In the annotations, I have specifically highlighted elements that require complex alignment or care on responsiveness across different devices.</p> 
+      </p>
+      <div class="container">
+        <img src="img/guide.png" class="img-fluid" alt="" />
+        <img src="img/hifi.001.png" class="img-fluid" alt="" />
+        <img src="img/hifi.002.png" class="img-fluid" alt="" />
+        <img src="img/hifi.003.jpg" class="img-fluid" alt="" />
+        <img src="img/hifi.004.png" class="img-fluid" alt="" />
+        <img src="img/hifi.005.png" class="img-fluid" alt="" />
+      </div>
+    </section>
+
+    <section id="redesigned" class="p-5 bg-dark text-light">
+      <div class="container">
+        <h2>Final Design</h2>
+        <p class="lead text-center">
+          Click on the picture below to see my final redesign of the Y Noodle and Bar website!
+        </p>
+        <a href="https://dumbpenguin988.github.io/redesigned-ynoodlebar/"><img src="img/cover.png" class="img-fluid" alt="" /></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <!-- <p class="lead">Copyright &copy; 2022 Frontend Bootcamp</p> -->
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+      mapboxgl.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      })
+    </script>
+  </body>
+</html>
